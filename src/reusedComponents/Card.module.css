@@ -1,0 +1,69 @@
+.third {
+  width: 13rem;
+  height: 22rem;
+  position: relative;
+  row-gap: 1rem;
+  column-gap: 0.5rem;
+}
+
+.button {
+  width: 100%;
+  height: 2rem;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+}
+
+.third b {
+  position: absolute;
+  bottom: 22%;
+  left: 10%;
+}
+
+.third pre {
+  position: absolute;
+  bottom: 16%;
+  left: 10%;
+}
+
+.third img {
+  width: 13rem;
+  height: 15rem;
+  padding: 1rem;
+  border: 2px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.third img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 970px) {
+  .third {
+    width: 10rem;
+    height: 17rem;
+  }
+  .third img {
+    width: 10rem;
+    height: 11rem;
+    padding: 0.8rem;
+  }
+  .third b,
+  pre {
+    font-size: small;
+  }
+  .third b {
+    bottom: 25%;
+  }
+  .third pre {
+    bottom: 20%;
+  }
+}

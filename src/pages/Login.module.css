@@ -1,0 +1,60 @@
+.main{
+    background-color: rgb(74, 72, 75);
+    width: 100%;
+    margin: auto;
+    height: 47rem;
+    border: 1rem solid rgb(74, 72, 75);
+    position: relative;
+}
+
+.login{
+    background-color:rgb(90, 75, 105);
+    margin:3% auto;
+    width: 60%;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login img{
+    width: 48%;
+    height: 95%;
+    border-radius: 10px;
+    object-fit: 100%;
+}
+
+.login div{
+    width: 48%;
+    height: 95%;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login div input{
+    width: 20rem;
+    height: 3rem;
+    text-indent: 1rem;
+    border: 2px solid rgb(90, 75, 105);
+    color: azure;
+    border-radius: 10px;
+    background-color: rgb(64, 47, 81);
+}
+
+.login div input::placeholder{
+    color: aliceblue;
+}
+
+.btn{
+     width: 20rem;
+    height: 3rem;
+    text-indent: 1rem;
+    border: 2px solid rgb(43, 8, 79);
+    color: azure;
+    border-radius: 10px;
+    background-color: rgb(69, 3, 135);
+}

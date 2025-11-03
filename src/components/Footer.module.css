@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    width: 100%;
+    margin: 2rem auto auto auto;
+    padding: 3rem;
+    background-color: gray;
+}
+
+.footer div{
+    margin:auto;
+    font-size: 0.8rem;
+}
+
+.footer p{
+    cursor: pointer;
+    margin: 0.3rem auto;
+}
+
+
+.span{
+  display: flex;
+  gap: 1rem;
+}
+
+.span li{
+  width: 5px;
+}
+
+@media (max-width: 1000px){
+    .footer{
+        padding: 3rem;
+    }
+}
+
+@media (max-width: 600px){
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        place-items: center;
+    }
+}

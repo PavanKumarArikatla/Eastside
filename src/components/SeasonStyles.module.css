@@ -1,0 +1,157 @@
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: black;
+}
+
+.firstblock {
+  margin: auto;
+  background-image: url("MainPic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  border: 10px solid turquoise;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.firstblock:hover {
+  transform: scale(0.97);
+}
+
+.button {
+  width: 10rem;
+  height: 3rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.firstblock strong {
+  color: rgb(226, 6, 226);
+}
+
+.secondblock {
+  margin: auto;
+  height: 20rem;
+  background-image: url("WinterIsComing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10rem;
+  font-size: 3rem;
+  line-height: 1rem;
+  border: 10px solid gray;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  position: relative;
+  cursor: pointer;
+}
+
+.secondblock p {
+  position: absolute;
+  bottom: 50%;
+  left: 15%;
+}
+
+.secondblock span {
+  position: absolute;
+  font-size: 1rem;
+  top: 60%;
+  left: 15%;
+}
+
+.secondblock:hover {
+  transform: scale(0.97);
+}
+
+@media (max-width: 1200px) {
+  .firstblock {
+    padding: 7rem;
+    font-size: 2.5rem;
+  }
+  .secondblock {
+    padding: 7rem;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 940px) {
+  .firstblock {
+    padding: 5rem;
+    font-size: 2rem;
+  }
+  .secondblock {
+    padding: 5rem;
+    font-size: 2rem;
+    height: 18rem;
+  }
+}
+
+@media (max-width: 766px) {
+  .firstblock {
+    padding: 3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .secondblock {
+    padding: 3rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    height: 15rem;
+  }
+  .secondblock p {
+    left: 10%;
+  }
+  .secondblock span {
+    left: 10%;
+  }
+}
+
+@media (max-width: 500px) {
+  .firstblock {
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .button {
+    width: 7rem;
+    height: 1.8rem;
+    border-radius: 0.5rem;
+  }
+  .secondblock {
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}
+
+@media (max-width: 427px) {
+  .firstblock {
+    margin: auto;
+    font-size: 0.8rem;
+    padding: 2rem;
+    background-size: fill;
+  }
+  .button {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+  }
+  .secondblock {
+    margin: auto;
+    font-size: 0.8rem;
+    height: 10rem;
+    padding: 2rem;
+    background-size: fill;
+  }
+}
