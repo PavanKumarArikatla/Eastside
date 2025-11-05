@@ -3,14 +3,17 @@ import styles from "./ItemDetails.module.css";
 import AppNavigation from "../reusedComponents/AppNavigation";
 
 import AddItemOrderButton from "../reusedComponents/AddItemOrderButton";
+import { useContext } from "react";
+import { StylesContext } from "../contexts/StylesContext";
 
 export default function ItemDetails() {
+  const { addItems, addItemsToWishlist } = useContext(StylesContext);
   //  receiving props through <Link>
   const location = useLocation();
   const item = location.state;
 
   return (
-    <>
+    <div className="homecontainer">
       <AppNavigation />
 
       <div className={styles.item}>
@@ -24,11 +27,12 @@ export default function ItemDetails() {
           {item.type}
           <hr></hr>
 
-          <pre>
+          <pre className={styles.price}>
             $
-            {Number(
-              (item.price - item.price * (item.discount / 100)).toFixed(2)
-            )}{" "}
+            {(
+              Number(item.price) -
+              Number(item.price) * (Number(item.discount) / 100)
+            ).toFixed(2)}{" "}
             <small className="text-stone-400">
               <span className="line-through"> ${item.price}</span>
             </small>{" "}
@@ -44,9 +48,16 @@ export default function ItemDetails() {
             <li>XL</li>
           </ul>
           <br></br>
-          <AddItemOrderButton>Add to bag</AddItemOrderButton>
+          <div className={styles.buttons}>
+            <AddItemOrderButton onClick={() => addItems(item)}>
+              Add to bag
+            </AddItemOrderButton>
+            <AddItemOrderButton onClick={() => addItemsToWishlist(item)}>
+              Move to wishlist
+            </AddItemOrderButton>
+          </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

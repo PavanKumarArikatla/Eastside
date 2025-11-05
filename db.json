@@ -24,7 +24,7 @@
         "image": "./MensPage/Monochrome.jpg",
         "style": "Monochrome",
         "price": "75.99",
-        "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
+        "type": "Men Comfort Relaxed Fit Cotton Casual Shirt",
         "brand": "Bear Brown",
         "discount": "20"
       },
@@ -33,7 +33,7 @@
         "image": "./MensPage/Polos.jpg",
         "style": "Polos",
         "price": "50.99",
-        "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
+        "type": "Men Classic Cutaway Slim Fit Casual Shirt",
         "brand": "Bear Brown",
         "discount": "20"
       },
@@ -42,7 +42,7 @@
         "image": "./MensPage/Hoodies.jpg",
         "style": "Hoodies",
         "price": "45.99",
-        "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
+        "type": "The Lifestyle Co Pure Cotton Casual Shirts",
         "brand": "Bear Brown",
         "discount": "20"
       },
@@ -51,7 +51,7 @@
         "image": "./MensPage/Snitch.jpg",
         "style": "Snitch",
         "price": "38.99",
-        "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
+        "type": "Men Crinkle Ls Regular Fit Opaque Shirt",
         "brand": "Bear Brown",
         "discount": "20"
       },
@@ -60,7 +60,7 @@
         "image": "./MensPage/Sweatshirts.jpg",
         "style": "Sweatshirts",
         "price": "25.99",
-        "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
+        "type": "Men Standard Opaque Cotton Casual Shirt",
         "brand": "Bear Brown",
         "discount": "20"
       },
@@ -69,7 +69,7 @@
         "image": "./MensPage/Suits.jpg",
         "style": "Suits",
         "price": "88.99",
-        "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
+        "type": "Men Olive Green Solid Fit Casual Shirt",
         "brand": "Bear Brown",
         "discount": "20"
       },
@@ -86,7 +86,7 @@
         ],
         "style": "Summer",
         "price": "8.99",
-        "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
+        "type": "Men Blue & White Slim Fit Striped Casual Shirt",
         "brand": "Bear Brown",
         "discount": "20"
       }

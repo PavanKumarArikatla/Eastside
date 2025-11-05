@@ -9,11 +9,25 @@ export default function SearchResults() {
   return (
     <div className="homecontainer">
       <AppNavigation />
-      <Shopping>
-        {searchResults.map((card) => (
-          <Card card={card} addItems={addItems} key={card.style} />
-        ))}
-      </Shopping>
+
+      {searchResults ? (
+        <Shopping>
+          {searchResults.map((card) => (
+            <Card card={card} addItems={addItems} key={card.style} />
+          ))}
+        </Shopping>
+      ) : (
+        <div className="text-center">Search for an item</div>
+      )}
+      {/* <Shopping>
+        {searchResults ? (
+          searchResults.map((card) => (
+            <Card card={card} addItems={addItems} key={card.style} />
+          ))
+        ) : (
+          <div className="text-center">Search for an item</div>
+        )}
+      </Shopping> */}
     </div>
   );
 }

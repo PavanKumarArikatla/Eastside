@@ -1,9 +1,7 @@
-.third {
+.card {
   width: 13rem;
   height: 22rem;
   position: relative;
-  row-gap: 1rem;
-  column-gap: 0.5rem;
 }
 
 .button {
@@ -19,51 +17,50 @@
   left: 0;
 }
 
-.third b {
+.card b {
   position: absolute;
   bottom: 22%;
   left: 10%;
 }
 
-.third pre {
+.card pre {
   position: absolute;
   bottom: 16%;
   left: 10%;
 }
 
-.third img {
+.card img {
   width: 13rem;
   height: 15rem;
   padding: 1rem;
   border: 2px solid grey;
   border-radius: 5px;
   cursor: pointer;
-  position: relative;
   transition: transform 0.3s ease;
 }
 
-.third img:hover {
+.card img:hover {
   transform: scale(1.05);
 }
 
 @media (max-width: 970px) {
-  .third {
+  .card {
     width: 10rem;
     height: 17rem;
   }
-  .third img {
+  .card img {
     width: 10rem;
     height: 11rem;
     padding: 0.8rem;
   }
-  .third b,
+  .card b,
   pre {
     font-size: small;
   }
-  .third b {
+  .card b {
     bottom: 25%;
   }
-  .third pre {
+  .card pre {
     bottom: 20%;
   }
 }

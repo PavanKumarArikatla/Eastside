@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+  font-family: "Poppins", "Helvetica Neue", sans-serif;
 }
 
-.homecontainer{
+.homecontainer {
   width: 90%;
   margin: auto;
 }

@@ -5,7 +5,7 @@ import styles from "./AppNavigation.module.css";
 
 export default function AppNavigation() {
   const navigate = useNavigate();
-  const { count, search, setSearch, handleChange } = useContext(StylesContext);
+  const { count, search, handleChange } = useContext(StylesContext);
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -16,19 +16,19 @@ export default function AppNavigation() {
       <NavLink to="/">
         <img src="logo.jpg" alt="Eastside" />
       </NavLink>
-      <p>
+      <p className={styles.type}>
         <NavLink to="/men">Men</NavLink>
       </p>
-      <p>
+      <p className={styles.type}>
         <NavLink to="/women">Women</NavLink>
       </p>
-      <p>
+      <p className={styles.type}>
         <NavLink to="/kids">Kids</NavLink>
       </p>
-      <p>
+      <p className={styles.type}>
         <NavLink to="/beauty">Beauty</NavLink>
       </p>
-      <p>
+      <p className={styles.type}>
         <NavLink to="/more">More</NavLink>
       </p>
 

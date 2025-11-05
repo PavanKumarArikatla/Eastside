@@ -26,12 +26,13 @@ export default function Item({ item }) {
 
         <div className={styles.quantityButton}>
           <form>
+            Qty:
             <select className={styles.select}>
-              <option>Qty:1</option>
-              <option>Qty:2</option>
-              <option>Qty:3</option>
-              <option>Qty:4</option>
-              <option>Qty:5</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
             </select>
           </form>
           <button

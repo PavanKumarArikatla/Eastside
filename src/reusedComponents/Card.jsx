@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import styles from "./Card.module.css";
+import { useEffect } from "react";
 
 export default function Card({ card, addItems }) {
-  // const {image, style, price, onClick} = useContext(CardsContext)
   return (
-    <div className={styles.third}>
+    <div className={styles.card}>
       <div>
         <Link to="/item" state={card}>
           <img src={card.image} alt={card.style} />

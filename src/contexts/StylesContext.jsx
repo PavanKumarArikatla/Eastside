@@ -7,19 +7,9 @@ export default function CardProvider({ children }) {
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(false);
   const [allStyles, setAllStyles] = useState([]);
+  const [wishlist, setWishlist] = useState([]);
   // 1 dummy cart item
-  const [cartItems, setCartItems] = useState([
-    {
-      id: 1,
-      image: "./MensPage/Shirts.jpg",
-      style: "Shirts",
-      price: "58.99",
-      type: "BULLMER Trendy Printed Cotton Blend Crew Neck",
-      brand: "Bear Brown",
-      return: "Non returnable",
-      discount: "20",
-    },
-  ]);
+  const [cartItems, setCartItems] = useState([]);
   const count = cartItems.length;
   const {
     mensStyles,
@@ -28,6 +18,25 @@ export default function CardProvider({ children }) {
     limitedEditionProducts,
     eastsideProducts,
   } = allStyles;
+
+  function getAllData() {
+    if (
+      mensStyles &&
+      womenStyles &&
+      trendyProducts &&
+      limitedEditionProducts &&
+      eastsideProducts
+    )
+      return [
+        ...mensStyles,
+        ...womenStyles,
+        ...trendyProducts,
+        ...limitedEditionProducts,
+        ...eastsideProducts,
+      ];
+  }
+
+  const allData = getAllData();
 
   function filterProducts(products) {
     return products.filter((item) =>
@@ -38,24 +47,30 @@ export default function CardProvider({ children }) {
     );
   }
 
-  const mens = search && mensStyles && filterProducts(mensStyles);
-  const women = search && womenStyles && filterProducts(womenStyles);
-  const trendy = search && trendyProducts && filterProducts(trendyProducts);
-  const limitedEdition =
-    search && limitedEditionProducts && filterProducts(limitedEditionProducts);
-  const eastside =
-    search && eastsideProducts && filterProducts(eastsideProducts);
+  const searchResults = search && allData && filterProducts(allData);
 
-  const searchResults = [
-    ...mens,
-    ...women,
-    ...trendy,
-    ...limitedEdition,
-    ...eastside,
-  ];
+  console.log(searchResults);
+
+  // const mens = search && mensStyles && filterProducts(mensStyles);
+  // const women = search && womenStyles && filterProducts(womenStyles);
+  // const trendy = search && trendyProducts && filterProducts(trendyProducts);
+  // const limitedEdition = search && limitedEditionProducts && filterProducts(limitedEditionProducts);
+  // const eastside = search && eastsideProducts && filterProducts(eastsideProducts);
+
+  // const searchResults = [
+  //   ...mens,
+  //   ...women,
+  //   ...trendy,
+  //   ...limitedEdition,
+  //   ...eastside,
+  // ];
 
   function addItems(card) {
     setCartItems((cartItems) => [...cartItems, card]);
+  }
+
+  function addItemsToWishlist(card) {
+    setWishlist((wishlist) => [...wishlist, card]);
   }
 
   function deleteItem(id) {
@@ -87,7 +102,10 @@ export default function CardProvider({ children }) {
         eastsideProducts,
         searchResults,
         cartItems,
+        wishlist,
+        setCartItems,
         addItems,
+        addItemsToWishlist,
         deleteItem,
         loading,
         count,

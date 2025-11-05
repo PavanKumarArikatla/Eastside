@@ -9,17 +9,20 @@
   text-align: left;
   display: flex;
   gap: 2rem;
+  position: relative;
 }
 
-.quantityButton{
+.quantityButton {
+  position: absolute;
+  bottom: 10%;
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
 }
 
 .deleteButton {
-  font-family: poppins;
   width: 7rem;
-  height: 1.5rem;
+  height: 2rem;
   border: 1px solid black;
   border-radius: 5px;
   cursor: pointer;
@@ -66,7 +69,7 @@
 }
 
 .select {
-  width: 3.5rem;
+  width: 2.5rem;
   height: 1.5rem;
   border-radius: 5px;
 }
@@ -115,7 +118,7 @@
     width: 2rem;
     height: 1.5rem;
   }
-  .deleteButton{
+  .deleteButton {
     width: 6rem;
   }
 }
@@ -131,7 +134,7 @@
   .item img {
     height: 9rem;
   }
-  .deleteButton{
+  .deleteButton {
     width: 5rem;
   }
 }
