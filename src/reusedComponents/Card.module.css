@@ -29,7 +29,7 @@
   left: 10%;
 }
 
-.card img {
+.image {
   width: 13rem;
   height: 15rem;
   padding: 1rem;
@@ -39,7 +39,7 @@
   transition: transform 0.3s ease;
 }
 
-.card img:hover {
+.image:hover {
   transform: scale(1.05);
 }
 
@@ -48,7 +48,7 @@
     width: 10rem;
     height: 17rem;
   }
-  .card img {
+  .image {
     width: 10rem;
     height: 11rem;
     padding: 0.8rem;

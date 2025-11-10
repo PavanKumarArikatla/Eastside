@@ -3,15 +3,15 @@
     "mensStyles": [
       {
         "id": 1,
-        "image": "./MensPage/Shirts.jpg",
+        "image": "./MensPage/Shirts.webp",
         "images": [
-          "./MensPage/Shirts.jpg",
-          "./MensPage/Shirts.jpg",
-          "./MensPage/Shirts.jpg",
-          "./MensPage/Shirts.jpg",
-          "./MensPage/Shirts.jpg",
-          "./MensPage/Shirts.jpg",
-          "./MensPage/Shirts.jpg"
+          "./MensPage/Shirts.webp",
+          "./MensPage/Monochrome.webp",
+          "./MensPage/Polos.webp",
+          "./MensPage/Hoodies.webp",
+          "./MensPage/Snitch.webp",
+          "./MensPage/Sweatshirts.webp",
+          "./MensPage/Shirts.webp"
         ],
         "style": "Shirts",
         "price": "58.99",
@@ -21,7 +21,16 @@
       },
       {
         "id": 2,
-        "image": "./MensPage/Monochrome.jpg",
+        "image": "./MensPage/Monochrome.webp",
+        "images": [
+          "./MensPage/Monochrome.webp",
+          "./MensPage/Monochrome.webp",
+          "./MensPage/Monochrome.webp",
+          "./MensPage/Monochrome.webp",
+          "./MensPage/Monochrome.webp",
+          "./MensPage/Monochrome.webp",
+          "./MensPage/Monochrome.webp"
+        ],
         "style": "Monochrome",
         "price": "75.99",
         "type": "Men Comfort Relaxed Fit Cotton Casual Shirt",
@@ -30,7 +39,16 @@
       },
       {
         "id": 3,
-        "image": "./MensPage/Polos.jpg",
+        "image": "./MensPage/Polos.webp",
+        "images": [
+          "./MensPage/Polos.webp",
+          "./MensPage/Polos.webp",
+          "./MensPage/Polos.webp",
+          "./MensPage/Polos.webp",
+          "./MensPage/Polos.webp",
+          "./MensPage/Polos.webp",
+          "./MensPage/Polos.webp"
+        ],
         "style": "Polos",
         "price": "50.99",
         "type": "Men Classic Cutaway Slim Fit Casual Shirt",
@@ -39,7 +57,16 @@
       },
       {
         "id": 4,
-        "image": "./MensPage/Hoodies.jpg",
+        "image": "./MensPage/Hoodies.webp",
+        "images": [
+          "./MensPage/Hoodies.webp",
+          "./MensPage/Hoodies.webp",
+          "./MensPage/Hoodies.webp",
+          "./MensPage/Hoodies.webp",
+          "./MensPage/Hoodies.webp",
+          "./MensPage/Hoodies.webp",
+          "./MensPage/Hoodies.webp"
+        ],
         "style": "Hoodies",
         "price": "45.99",
         "type": "The Lifestyle Co Pure Cotton Casual Shirts",
@@ -48,7 +75,16 @@
       },
       {
         "id": 5,
-        "image": "./MensPage/Snitch.jpg",
+        "image": "./MensPage/Snitch.webp",
+        "images": [
+          "./MensPage/Snitch.webp",
+          "./MensPage/Snitch.webp",
+          "./MensPage/Snitch.webp",
+          "./MensPage/Snitch.webp",
+          "./MensPage/Snitch.webp",
+          "./MensPage/Snitch.webp",
+          "./MensPage/Snitch.webp"
+        ],
         "style": "Snitch",
         "price": "38.99",
         "type": "Men Crinkle Ls Regular Fit Opaque Shirt",
@@ -57,7 +93,16 @@
       },
       {
         "id": 6,
-        "image": "./MensPage/Sweatshirts.jpg",
+        "image": "./MensPage/Sweatshirts.webp",
+        "images": [
+          "./MensPage/Sweatshirts.webp",
+          "./MensPage/Sweatshirts.webp",
+          "./MensPage/Sweatshirts.webp",
+          "./MensPage/Sweatshirts.webp",
+          "./MensPage/Sweatshirts.webp",
+          "./MensPage/Sweatshirts.webp",
+          "./MensPage/Sweatshirts.webp"
+        ],
         "style": "Sweatshirts",
         "price": "25.99",
         "type": "Men Standard Opaque Cotton Casual Shirt",
@@ -66,7 +111,16 @@
       },
       {
         "id": 7,
-        "image": "./MensPage/Suits.jpg",
+        "image": "./MensPage/Suits.webp",
+        "images": [
+          "./MensPage/Suits.webp",
+          "./MensPage/Suits.webp",
+          "./MensPage/Suits.webp",
+          "./MensPage/Suits.webp",
+          "./MensPage/Suits.webp",
+          "./MensPage/Suits.webp",
+          "./MensPage/Suits.webp"
+        ],
         "style": "Suits",
         "price": "88.99",
         "type": "Men Olive Green Solid Fit Casual Shirt",
@@ -75,14 +129,14 @@
       },
       {
         "id": 8,
-        "image": "./MensPage/Summer.jpg",
+        "image": "./MensPage/Summer.webp",
         "images": [
-          "./MensPage/Summer.jpg",
-          "./MensPage/Summer.jpg",
-          "./MensPage/Summer.jpg",
-          "./MensPage/Summer.jpg",
-          "./MensPage/Summer.jpg",
-          "./MensPage/Summer.jpg"
+          "./MensPage/Summer.webp",
+          "./MensPage/Summer.webp",
+          "./MensPage/Summer.webp",
+          "./MensPage/Summer.webp",
+          "./MensPage/Summer.webp",
+          "./MensPage/Summer.webp"
         ],
         "style": "Summer",
         "price": "8.99",
@@ -95,6 +149,15 @@
       {
         "id": 9,
         "image": "./WomensPage/Autumn Wear.jpg",
+        "images": [
+          "./WomensPage/Autumn Wear.jpg",
+          "./WomensPage/Autumn Wear.jpg",
+          "./WomensPage/Autumn Wear.jpg",
+          "./WomensPage/Autumn Wear.jpg",
+          "./WomensPage/Autumn Wear.jpg",
+          "./WomensPage/Autumn Wear.jpg",
+          "./WomensPage/Autumn Wear.jpg"
+        ],
         "style": "Autumn Wear",
         "price": "58.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -104,6 +167,15 @@
       {
         "id": 10,
         "image": "./WomensPage/Minimalist.jpg",
+        "images": [
+          "./WomensPage/Minimalist.jpg",
+          "./WomensPage/Minimalist.jpg",
+          "./WomensPage/Minimalist.jpg",
+          "./WomensPage/Minimalist.jpg",
+          "./WomensPage/Minimalist.jpg",
+          "./WomensPage/Minimalist.jpg",
+          "./WomensPage/Minimalist.jpg"
+        ],
         "style": "Minimalist",
         "price": "65.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -113,6 +185,15 @@
       {
         "id": 11,
         "image": "./WomensPage/Shirts.jpg",
+        "images": [
+          "./WomensPage/Shirts.jpg",
+          "./WomensPage/Shirts.jpg",
+          "./WomensPage/Shirts.jpg",
+          "./WomensPage/Shirts.jpg",
+          "./WomensPage/Shirts.jpg",
+          "./WomensPage/Shirts.jpg",
+          "./WomensPage/Shirts.jpg"
+        ],
         "style": "Women Shirts",
         "price": "78.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -122,6 +203,15 @@
       {
         "id": 12,
         "image": "./WomensPage/Street Wear.jpg",
+        "images": [
+          "./WomensPage/Street Wear.jpg",
+          "./WomensPage/Street Wear.jpg",
+          "./WomensPage/Street Wear.jpg",
+          "./WomensPage/Street Wear.jpg",
+          "./WomensPage/Street Wear.jpg",
+          "./WomensPage/Street Wear.jpg",
+          "./WomensPage/Street Wear.jpg"
+        ],
         "style": "Street Wear",
         "price": "38.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -131,6 +221,15 @@
       {
         "id": 13,
         "image": "./WomensPage/Stylish.jpg",
+        "images": [
+          "./WomensPage/Stylish.jpg",
+          "./WomensPage/Stylish.jpg",
+          "./WomensPage/Stylish.jpg",
+          "./WomensPage/Stylish.jpg",
+          "./WomensPage/Stylish.jpg",
+          "./WomensPage/Stylish.jpg",
+          "./WomensPage/Stylish.jpg"
+        ],
         "style": "Stylish",
         "price": "50.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -140,6 +239,15 @@
       {
         "id": 14,
         "image": "./WomensPage/Traditional.jpg",
+        "images": [
+          "./WomensPage/Traditional.jpg",
+          "./WomensPage/Traditional.jpg",
+          "./WomensPage/Traditional.jpg",
+          "./WomensPage/Traditional.jpg",
+          "./WomensPage/Traditional.jpg",
+          "./WomensPage/Traditional.jpg",
+          "./WomensPage/Traditional.jpg"
+        ],
         "style": "Traditional",
         "price": "58.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -149,6 +257,15 @@
       {
         "id": 15,
         "image": "./WomensPage/Vacation.jpg",
+        "images": [
+          "./WomensPage/Vacation.jpg",
+          "./WomensPage/Vacation.jpg",
+          "./WomensPage/Vacation.jpg",
+          "./WomensPage/Vacation.jpg",
+          "./WomensPage/Vacation.jpg",
+          "./WomensPage/Vacation.jpg",
+          "./WomensPage/Vacation.jpg"
+        ],
         "style": "Vacation",
         "price": "28.39",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -158,6 +275,15 @@
       {
         "id": 16,
         "image": "./WomensPage/Office Attire.jpg",
+        "images": [
+          "./WomensPage/Office Attire.jpg",
+          "./WomensPage/Office Attire.jpg",
+          "./WomensPage/Office Attire.jpg",
+          "./WomensPage/Office Attire.jpg",
+          "./WomensPage/Office Attire.jpg",
+          "./WomensPage/Office Attire.jpg",
+          "./WomensPage/Office Attire.jpg"
+        ],
         "style": "Office Attire",
         "price": "99.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -169,6 +295,15 @@
       {
         "id": 17,
         "image": "./TrendyProducts/Tshirts.jpg",
+        "images": [
+          "./TrendyProducts/Tshirts.jpg",
+          "./TrendyProducts/Tshirts.jpg",
+          "./TrendyProducts/Tshirts.jpg",
+          "./TrendyProducts/Tshirts.jpg",
+          "./TrendyProducts/Tshirts.jpg",
+          "./TrendyProducts/Tshirts.jpg",
+          "./TrendyProducts/Tshirts.jpg"
+        ],
         "style": "T-shirts",
         "price": "39.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -178,6 +313,15 @@
       {
         "id": 18,
         "image": "./TrendyProducts/Jeans.png",
+        "images": [
+          "./TrendyProducts/Jeans.png",
+          "./TrendyProducts/Jeans.png",
+          "./TrendyProducts/Jeans.png",
+          "./TrendyProducts/Jeans.png",
+          "./TrendyProducts/Jeans.png",
+          "./TrendyProducts/Jeans.png",
+          "./TrendyProducts/Jeans.png"
+        ],
         "style": "Jeans",
         "price": "59.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -187,6 +331,15 @@
       {
         "id": 19,
         "image": "./TrendyProducts/Trousers.jpg",
+        "images": [
+          "./TrendyProducts/Trousers.jpg",
+          "./TrendyProducts/Trousers.jpg",
+          "./TrendyProducts/Trousers.jpg",
+          "./TrendyProducts/Trousers.jpg",
+          "./TrendyProducts/Trousers.jpg",
+          "./TrendyProducts/Trousers.jpg",
+          "./TrendyProducts/Trousers.jpg"
+        ],
         "style": "Trousers",
         "price": "49.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -196,6 +349,15 @@
       {
         "id": 20,
         "image": "./TrendyProducts/Kurtas.png",
+        "images": [
+          "./TrendyProducts/Kurtas.png",
+          "./TrendyProducts/Kurtas.png",
+          "./TrendyProducts/Kurtas.png",
+          "./TrendyProducts/Kurtas.png",
+          "./TrendyProducts/Kurtas.png",
+          "./TrendyProducts/Kurtas.png",
+          "./TrendyProducts/Kurtas.png"
+        ],
         "style": "Kurtas",
         "price": "45.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -205,6 +367,15 @@
       {
         "id": 21,
         "image": "./TrendyProducts/Ethnic Wear.jpg",
+        "images": [
+          "./TrendyProducts/Ethnic Wear.jpg",
+          "./TrendyProducts/Ethnic Wear.jpg",
+          "./TrendyProducts/Ethnic Wear.jpg",
+          "./TrendyProducts/Ethnic Wear.jpg",
+          "./TrendyProducts/Ethnic Wear.jpg",
+          "./TrendyProducts/Ethnic Wear.jpg",
+          "./TrendyProducts/Ethnic Wear.jpg"
+        ],
         "style": "Ethnic Wear",
         "price": "75.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -214,6 +385,15 @@
       {
         "id": 22,
         "image": "./TrendyProducts/Gen Z.jpg",
+        "images": [
+          "./TrendyProducts/Gen Z.jpg",
+          "./TrendyProducts/Gen Z.jpg",
+          "./TrendyProducts/Gen Z.jpg",
+          "./TrendyProducts/Gen Z.jpg",
+          "./TrendyProducts/Gen Z.jpg",
+          "./TrendyProducts/Gen Z.jpg",
+          "./TrendyProducts/Gen Z.jpg"
+        ],
         "style": "Gen Z",
         "price": "39.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -223,6 +403,15 @@
       {
         "id": 23,
         "image": "./TrendyProducts/Jackets.jpg",
+        "images": [
+          "./TrendyProducts/Jackets.jpg",
+          "./TrendyProducts/Jackets.jpg",
+          "./TrendyProducts/Jackets.jpg",
+          "./TrendyProducts/Jackets.jpg",
+          "./TrendyProducts/Jackets.jpg",
+          "./TrendyProducts/Jackets.jpg",
+          "./TrendyProducts/Jackets.jpg"
+        ],
         "style": "Jackets",
         "price": "69.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -232,6 +421,15 @@
       {
         "id": 24,
         "image": "./TrendyProducts/Kids wear.jpg",
+        "images": [
+          "./TrendyProducts/Kids wear.jpg",
+          "./TrendyProducts/Kids wear.jpg",
+          "./TrendyProducts/Kids wear.jpg",
+          "./TrendyProducts/Kids wear.jpg",
+          "./TrendyProducts/Kids wear.jpg",
+          "./TrendyProducts/Kids wear.jpg",
+          "./TrendyProducts/Kids wear.jpg"
+        ],
         "style": "Kids wear",
         "price": "39.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -243,6 +441,15 @@
       {
         "id": 25,
         "image": "./LimitedEdition/Sunglasses.png",
+        "images": [
+          "./LimitedEdition/Sunglasses.png",
+          "./LimitedEdition/Sunglasses.png",
+          "./LimitedEdition/Sunglasses.png",
+          "./LimitedEdition/Sunglasses.png",
+          "./LimitedEdition/Sunglasses.png",
+          "./LimitedEdition/Sunglasses.png",
+          "./LimitedEdition/Sunglasses.png"
+        ],
         "style": "Sunglasses",
         "price": "10.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -252,6 +459,15 @@
       {
         "id": 26,
         "image": "./LimitedEdition/Watches.png",
+        "images": [
+          "./LimitedEdition/Watches.png",
+          "./LimitedEdition/Watches.png",
+          "./LimitedEdition/Watches.png",
+          "./LimitedEdition/Watches.png",
+          "./LimitedEdition/Watches.png",
+          "./LimitedEdition/Watches.png",
+          "./LimitedEdition/Watches.png"
+        ],
         "style": "Watches",
         "price": "15.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -261,6 +477,15 @@
       {
         "id": 27,
         "image": "./LimitedEdition/Caps.png",
+        "images": [
+          "./LimitedEdition/Caps.png",
+          "./LimitedEdition/Caps.png",
+          "./LimitedEdition/Caps.png",
+          "./LimitedEdition/Caps.png",
+          "./LimitedEdition/Caps.png",
+          "./LimitedEdition/Caps.png",
+          "./LimitedEdition/Caps.png"
+        ],
         "style": "Caps",
         "price": "9.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -270,6 +495,15 @@
       {
         "id": 28,
         "image": "./LimitedEdition/Handbags.png",
+        "images": [
+          "./LimitedEdition/Handbags.png",
+          "./LimitedEdition/Handbags.png",
+          "./LimitedEdition/Handbags.png",
+          "./LimitedEdition/Handbags.png",
+          "./LimitedEdition/Handbags.png",
+          "./LimitedEdition/Handbags.png",
+          "./LimitedEdition/Handbags.png"
+        ],
         "style": "Handbags",
         "price": "19.99",
         "type": "BULLMER Trendy Printed Cotton Blend Crew Neck",
@@ -338,6 +572,16 @@
         "image": "./EastsideProducts/Uomo12.png",
         "style": "Uomo12"
       }
+    ],
+    "summerstyles": [
+      "./SummerStyles/Summerstyle1.jpg",
+      "./SummerStyles/Summerstyle2.jpg",
+      "./SummerStyles/Summerstyle3.jpg"
+    ],
+    "winterstyles": [
+      "./WinterStyles/WinterStyles1.jpg",
+      "./WinterStyles/WinterStyles2.jpg",
+      "./WinterStyles/WinterStyles3.jpg"
     ]
   }
 }

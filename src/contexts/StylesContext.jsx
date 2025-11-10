@@ -8,7 +8,6 @@ export default function CardProvider({ children }) {
   const [loading, setLoading] = useState(false);
   const [allStyles, setAllStyles] = useState([]);
   const [wishlist, setWishlist] = useState([]);
-  // 1 dummy cart item
   const [cartItems, setCartItems] = useState([]);
   const count = cartItems.length;
   const {
@@ -17,14 +16,15 @@ export default function CardProvider({ children }) {
     trendyProducts,
     limitedEditionProducts,
     eastsideProducts,
+    summerstyles,
+    winterstyles,
   } = allStyles;
-
   function getAllData() {
     if (
-      mensStyles &&
-      womenStyles &&
-      trendyProducts &&
-      limitedEditionProducts &&
+      mensStyles ||
+      womenStyles ||
+      trendyProducts ||
+      limitedEditionProducts ||
       eastsideProducts
     )
       return [
@@ -48,8 +48,6 @@ export default function CardProvider({ children }) {
   }
 
   const searchResults = search && allData && filterProducts(allData);
-
-  console.log(searchResults);
 
   // const mens = search && mensStyles && filterProducts(mensStyles);
   // const women = search && womenStyles && filterProducts(womenStyles);
@@ -100,6 +98,8 @@ export default function CardProvider({ children }) {
         trendyProducts,
         limitedEditionProducts,
         eastsideProducts,
+        summerstyles,
+        winterstyles,
         searchResults,
         cartItems,
         wishlist,

@@ -47,7 +47,6 @@ export default function ItemDetails() {
             <li>L</li>
             <li>XL</li>
           </ul>
-          <br></br>
           <div className={styles.buttons}>
             <AddItemOrderButton onClick={() => addItems(item)}>
               Add to bag

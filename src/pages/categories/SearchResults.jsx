@@ -17,17 +17,8 @@ export default function SearchResults() {
           ))}
         </Shopping>
       ) : (
-        <div className="text-center">Search for an item</div>
+        <div className="text-center py-5">Search for an item</div>
       )}
-      {/* <Shopping>
-        {searchResults ? (
-          searchResults.map((card) => (
-            <Card card={card} addItems={addItems} key={card.style} />
-          ))
-        ) : (
-          <div className="text-center">Search for an item</div>
-        )}
-      </Shopping> */}
     </div>
   );
 }

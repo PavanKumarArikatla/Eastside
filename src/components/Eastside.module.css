@@ -22,13 +22,12 @@
   width: 100%;
   height: 100%;
   cursor: pointer;
-  transition: transform 0.3s ease;
+
+  transition: transform 0.3s ease-out;
 }
 
 .sixth img:hover {
   transform: scale(1.05);
-  border: 5px solid rgb(140, 129, 129);
-  border-radius: 5px;
 }
 
 .text {

@@ -46,6 +46,7 @@
 }
 
 .buttons {
+  margin: 2rem auto;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -57,6 +58,7 @@
 
 @media (max-width: 1050px) {
   .buttons {
+    margin: 1rem auto;
     flex-direction: column;
     gap: 0.5rem;
   }
@@ -78,6 +80,7 @@
     flex-direction: column;
     width: 50%;
     height: 25rem;
+    object-fit: fill;
     overflow: scroll;
     scrollbar-width: none;
   }

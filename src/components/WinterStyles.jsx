@@ -1,19 +1,22 @@
+import { Link } from "react-router-dom";
 import styles from "./WinterStyles.module.css";
 
 export default function WinterStyles() {
   return (
     <div className={styles.fifth}>
-      <div>
-        <img src="./Jackets.png" alt="Jackets" />
-        <br></br>
-        <b>Jackets</b>
-      </div>
+      <Link to="beauty">
+        <div>
+          <img src="./Jackets.png" alt="Jackets" />
+          <b>Jackets</b>
+        </div>
+      </Link>
 
-      <div>
-        <img src="./Hoodie.png" alt="Hoodie" />
-        <br></br>
-        <b>Hoodies</b>
-      </div>
+      <Link to="more">
+        <div>
+          <img src="./Hoodie.png" alt="Hoodie" />
+          <b>Hoodies</b>
+        </div>
+      </Link>
     </div>
   );
 }

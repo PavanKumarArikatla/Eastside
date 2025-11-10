@@ -68,6 +68,7 @@ export default function Cart() {
                 <div>
                   <strong>Total Amount</strong>
                   <p className={styles.amount}>
+                    $
                     {(
                       Number(totalMRP) -
                       Number(totalDiscount) +
