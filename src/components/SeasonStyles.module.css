@@ -14,12 +14,12 @@
 
 @keyframes myAnimation {
   0% {
+    border-color: rgb(252, 252, 252);
+  }
+  30% {
     border-color: aqua;
   }
-  33% {
-    border-color: aqua;
-  }
-  66% {
+  60% {
     border-color: rgb(228, 107, 131);
   }
   100% {

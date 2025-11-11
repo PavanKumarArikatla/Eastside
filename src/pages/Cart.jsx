@@ -37,7 +37,7 @@ export default function Cart() {
             <div className={styles.cartItems}>
               <div className={styles.items}>
                 {cartItems.map((item) => (
-                  <Item item={item} key={item.id} />
+                  <Item item={item} key={item.id} type="cart" />
                 ))}
               </div>
 

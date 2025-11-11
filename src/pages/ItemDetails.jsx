@@ -8,7 +8,7 @@ import { StylesContext } from "../contexts/StylesContext";
 
 export default function ItemDetails() {
   const { addItems, addItemsToWishlist } = useContext(StylesContext);
-  //  receiving props through <Link>
+  //  receiving props(card as item) through <Link>
   const location = useLocation();
   const item = location.state;
 

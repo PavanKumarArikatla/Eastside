@@ -11,7 +11,9 @@ export default function Wishlist() {
       <BackButton />
 
       {wishlist.length > 0 ? (
-        wishlist.map((item) => <Item item={item} key={item.id} />)
+        wishlist.map((item) => (
+          <Item item={item} key={item.id} type="wishlist" />
+        ))
       ) : (
         <p className="text-center">Your wishlist is empty</p>
       )}

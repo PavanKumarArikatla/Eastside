@@ -7,6 +7,7 @@ import WinterStyles from "../components/WinterStyles";
 import Eastside from "../components/Eastside";
 import Footer from "../components/Footer";
 import { StylesContext } from "../contexts/StylesContext";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const { trendyProducts, limitedEditionProducts, eastsideProducts } =
@@ -30,7 +31,9 @@ export default function Home() {
 
         <Eastside>
           {eastsideProducts?.map((pic) => (
-            <img src={pic.image} alt="" key={pic.id} />
+            <Link to="men">
+              <img src={pic.image} alt="" key={pic.id} />
+            </Link>
           ))}
         </Eastside>
       </div>

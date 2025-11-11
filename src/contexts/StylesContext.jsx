@@ -75,6 +75,10 @@ export default function CardProvider({ children }) {
     setCartItems((cartItems) => cartItems.filter((item) => item.id !== id));
   }
 
+  function deleteItemFromWishlist(id) {
+    setWishlist((cartItems) => cartItems.filter((item) => item.id !== id));
+  }
+
   useEffect(function () {
     setLoading(true);
     async function getAllStyles() {
@@ -107,6 +111,7 @@ export default function CardProvider({ children }) {
         addItems,
         addItemsToWishlist,
         deleteItem,
+        deleteItemFromWishlist,
         loading,
         count,
         search,

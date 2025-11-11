@@ -2,8 +2,8 @@ import { useContext } from "react";
 import { StylesContext } from "../contexts/StylesContext";
 import styles from "./Item.module.css";
 
-export default function Item({ item }) {
-  const { deleteItem } = useContext(StylesContext);
+export default function Item({ item, type }) {
+  const { deleteItem, deleteItemFromWishlist } = useContext(StylesContext);
 
   return (
     <div className={styles.item}>
@@ -37,7 +37,11 @@ export default function Item({ item }) {
           </form>
           <button
             className={styles.deleteButton}
-            onClick={() => deleteItem(item.id)}
+            onClick={
+              type === "cart"
+                ? () => deleteItem(item.id)
+                : () => deleteItemFromWishlist(item.id)
+            }
           >
             Delete &#10006;
           </button>
