@@ -20,7 +20,7 @@ export default function SeasonStyles({ season }) {
       {summerstyles?.length > 0 && winterstyles?.length > 0 ? (
         <>
           {season === "Summer" ? (
-            <div className={styles.slider}>
+            <div className={`${styles.slider} ${styles.summerborder}`}>
               <div
                 className={styles.sliderInner}
                 style={{ transform: `translateX(-${index * 100}%)` }}
@@ -45,7 +45,7 @@ export default function SeasonStyles({ season }) {
             </div>
           ) : (
             <Link to="/women">
-              <div className={styles.slider}>
+              <div className={`${styles.slider} ${styles.winterborder}`}>
                 <div
                   className={styles.sliderInner}
                   style={{ transform: `translateX(-${index * 100}%)` }}

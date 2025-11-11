@@ -7,12 +7,15 @@
   border-radius: 5px;
   font-size: 3rem;
   line-height: 3rem;
-  animation-name: myAnimation;
+}
+
+.summerborder {
+  animation-name: summerAnimation;
   animation-duration: 6s;
   animation-iteration-count: infinite;
 }
 
-@keyframes myAnimation {
+@keyframes summerAnimation {
   0% {
     border-color: rgb(252, 252, 252);
   }
@@ -24,6 +27,27 @@
   }
   100% {
     border-color: rgb(218, 218, 218);
+  }
+}
+
+.winterborder {
+  animation-name: winterAnimation;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes winterAnimation {
+  0% {
+    border-color: rgb(252, 252, 252);
+  }
+  30% {
+    border-color: rgb(173, 185, 66);
+  }
+  60% {
+    border-color: rgb(228, 107, 131);
+  }
+  100% {
+    border-color: rgb(200, 75, 225);
   }
 }
 
