@@ -14,8 +14,6 @@ export default function ItemDetails() {
 
   return (
     <div className="homecontainer">
-      <AppNavigation />
-
       <div className={styles.item}>
         <div className={styles.images}>
           <img src={item.image} alt={item.style} />

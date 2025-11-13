@@ -8,8 +8,6 @@ export default function SearchResults() {
   const { searchResults, addItems } = useContext(StylesContext);
   return (
     <div className="homecontainer">
-      <AppNavigation />
-
       {searchResults ? (
         <Shopping>
           {searchResults.map((card) => (

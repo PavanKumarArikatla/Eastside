@@ -9,8 +9,6 @@ export default function Beauty() {
     useContext(StylesContext);
   return (
     <div className="homecontainer">
-      <AppNavigation />
-
       <Shopping>
         {loading
           ? "Loading..."

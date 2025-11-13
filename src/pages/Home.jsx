@@ -15,8 +15,6 @@ export default function Home() {
   return (
     <div>
       <div className="homecontainer">
-        <AppNavigation />
-
         <SeasonStyles season="Summer" />
 
         <CollectionStyles />

@@ -9,8 +9,6 @@ export default function Women() {
 
   return (
     <div className="homecontainer">
-      <AppNavigation />
-
       <Shopping>
         {loading
           ? "Loading..."

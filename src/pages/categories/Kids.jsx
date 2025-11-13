@@ -8,8 +8,6 @@ export default function Kids() {
   const { trendyProducts, loading, addItems } = useContext(StylesContext);
   return (
     <div className="homecontainer">
-      <AppNavigation />
-
       <Shopping>
         {loading
           ? "Loading..."

@@ -9,8 +9,6 @@ export default function Men() {
 
   return (
     <div className="homecontainer">
-      <AppNavigation />
-
       <Shopping>
         {loading
           ? "Loading..."
