@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import AppNavigation from "../reusedComponents/AppNavigation";
 import SeasonStyles from "../components/SeasonStyles";
 import CollectionStyles from "../components/CollectionStyles";
 import TrendyLimited from "../components/TrendyLimited";

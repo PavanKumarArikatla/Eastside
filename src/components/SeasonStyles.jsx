@@ -17,7 +17,7 @@ export default function SeasonStyles({ season }) {
   }, [summerstyles, winterstyles]);
   return (
     <div>
-      {summerstyles?.length > 0 && winterstyles?.length > 0 ? (
+      {summerstyles?.length > 0 || winterstyles?.length > 0 ? (
         <>
           {season === "Summer" ? (
             <div className={`${styles.slider} ${styles.summerborder}`}>
@@ -63,7 +63,6 @@ export default function SeasonStyles({ season }) {
                   <p>
                     <b>WINTER</b> is Coming
                   </p>
-                  <br></br>
                   <span className={styles.span}>Starting at just $49.99</span>
                 </div>
               </div>

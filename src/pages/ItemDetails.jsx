@@ -1,6 +1,5 @@
 import { useLocation } from "react-router-dom";
 import styles from "./ItemDetails.module.css";
-import AppNavigation from "../reusedComponents/AppNavigation";
 
 import AddItemOrderButton from "../reusedComponents/AddItemOrderButton";
 import { useContext } from "react";
